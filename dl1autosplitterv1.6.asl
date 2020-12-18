@@ -21,7 +21,7 @@ startup {
 }
 
 start {
-	return current.scene == 8 & old.scene == 10;
+	return current.scene == 8 && old.scene == 10;
 }
 
 split {
