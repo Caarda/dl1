@@ -25,5 +25,5 @@ start {
 }
 
 split {
-	return settings[old.scene + "-" + current.scene];
+	return settings[old.scene.ToString() + "-" + current.scene.ToString()];
 }
